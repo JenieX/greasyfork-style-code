@@ -3,11 +3,14 @@
     // ".vscode/": true,
     "node_modules": true,
     "src/icons": true,
-    "src/html": true,
-    "src/scss": true
+    "src/html": true
+    // "src/scss": true
   },
   "cSpell.words": [
     "cssnano",
+    "greasyfork",
+    "highlightjs",
+    "hljs",
     "htmlmin",
     "Minifing",
     "Rollup",

@@ -1,11 +1,8 @@
-function addStyle(
-  styleText,
-  head = document.getElementsByTagName('head')[0] || document.documentElement
-) {
+function addStyle(styleText, head = document.documentElement) {
   const style = document.createElement('style');
   style.setAttribute('type', 'text/css');
   style.textContent = styleText;
-  head.appendChild(style);
+  head.prepend(style);
   return style;
 }
 

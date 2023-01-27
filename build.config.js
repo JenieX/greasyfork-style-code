@@ -5,7 +5,7 @@ module.exports = {
    * at `./dist` folder, and can be included in any of the `js` files later,
    * by their original names, but with `css` extensions.
    */
-  cssSupport: false,
+  cssSupport: true,
 
   /**
    * If enabled, the already compiled `css` files located at `./dist`, will
@@ -14,7 +14,7 @@ module.exports = {
    * with `css` extensions. This option is ignored when `cssSupport`
    * is disabled.
    */
-  cssMinify: true,
+  cssMinify: false,
 
   /**
    * If enabled, `html` files located at `./src/html` folder, will be minified.

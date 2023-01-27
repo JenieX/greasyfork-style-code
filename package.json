@@ -1,7 +1,7 @@
 {
-  "name": "user-js-template",
+  "name": "greasyfork-style-code",
   "version": "0.0.1",
-  "description": "User script template",
+  "description": "Format and style the code",
   "author": "JenieX",
   "main": "src/index.js",
   "scripts": {

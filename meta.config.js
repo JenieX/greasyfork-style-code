@@ -12,7 +12,7 @@ const metadata = {
   namespace: `https://github.com/${author}`,
   description,
   author,
-  match: ['*://*/*'],
+  match: ['https://greasyfork.org/en/scripts/*/code'],
   grant: [
     // Next 5 functions are needed for the options library
     // 'GM.deleteValue',
@@ -29,6 +29,7 @@ const metadata = {
     // 'GM.notification',
     // 'GM.openInTab',
     // 'GM.setClipboard',
+    // 'none',
   ],
   require: [
     `https://github.com/${author}/${name}/raw/main/lib/gm-fetch.js`,
@@ -41,7 +42,7 @@ const metadata = {
   // homepageURL: `https://github.com/${author}/${name}`,
   // updateURL: `https://github.com/${author}/${name}/raw/main/dist/${name}.meta.js`,
   // downloadURL: `https://github.com/${author}/${name}/raw/main/dist/${name}.user.js`,
-  icon: 'https://www.google.com/s2/favicons?sz=64&domain=violentmonkey.github.io',
+  icon: 'https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org',
   license,
 };
 
